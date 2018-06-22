@@ -11,7 +11,7 @@ class Stack
 
   def pop
     # removes one element from the stack
-    underlying_arr.pop(el)
+    underlying_arr.pop
   end
 
   def peek
