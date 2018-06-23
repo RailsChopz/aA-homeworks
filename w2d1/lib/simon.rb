@@ -36,12 +36,12 @@ class Simon
       puts color
       sleep 0.75
       system("clear")
-      sleep 0.25
+      sleep 0.75
     end
   end
 
   def require_sequence
-    puts "Repease the sequence by entering the first letter of the color"
+    puts "Repeat the sequence by entering the first letter of the color"
     @seq.each do |color|
       user_color = gets.chomp
       if color[0] != user_color
